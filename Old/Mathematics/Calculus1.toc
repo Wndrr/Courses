@@ -1,0 +1,4 @@
+\babel@toc {english}{}
+\contentsline {section}{\numberline {1}Derivatives}{1}{}%
+\contentsline {subsection}{\numberline {1.1}Derivative as a concept}{1}{}%
+\contentsline {subsection}{\numberline {1.2}Calculating the derivative}{1}{}%

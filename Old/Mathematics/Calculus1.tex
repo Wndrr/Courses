@@ -1,0 +1,57 @@
+%% LyX 2.3.5.2 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english]{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{babel}
+\begin{document}
+\title{Calculus 1}
+\maketitle
+
+\tableofcontents{}
+
+\section{Derivatives}
+
+\subsection{Derivative as a concept}
+
+The derivative of a line describes the rate of change of the vertical
+component with respect to the horizontal component. The derivative
+will allow us to calculate not the slope, but the instantaneous rate
+of change at a given point. The derivative will give us the rate of
+change at a given point that will be give us the slope of the tangent
+line at that point. The reverse is true as well.
+
+\subsection{Calculating the derivative}
+
+Considering that the $\Delta y$ between two points is the result
+of subtracting the $y$ component defined as $f(x)$ from the $y$
+component of a second point that can be written as $f(x+\Delta x)$,
+can be defined $\Delta y$ as $f(x+\Delta x)-f(x)$. Thus, formula
+to find the derivative of a function $f(x)$ is
+
+$$
+\frac{\Delta y}{\Delta x}=\frac{f(x+\Delta x)-f(x)}{\Delta x}
+$$
+
+
+Assuming a function $f(x)=x^{2}$ we can calculate the derivative
+as follows
+
+\begin{align*}
+\frac{\Delta y}{\Delta x} &= \frac{f(x+\Delta x) - f(x)}{\Delta x} \\
+&= \frac{x^2 + 2x\Delta x+(\Delta x)^2)-x^2}{\Delta x}\\
+&= \frac{2x\Delta x+(\Delta x)^2}{\Delta x}\\
+&= 2x + \Delta x \\
+\end{align*}	
+
+The equation $2x + \Delta x$ gives us the derivative of the function $f(x)$ when $\Delta x$ heads towards zero, which would result in $2x + 0 = 2x$
+
+In other words, the slope a $x$ for $f(x) = x^2$ is $2x$
+
+"$\Deltax$ heads towards $0$" is written $dx$ and "the derivative of" is commonly written $\frac{d}{dx}$.
+eg. $\frac{d}{dx}x^2=2x$
+
+
+
+
+\end{document}
